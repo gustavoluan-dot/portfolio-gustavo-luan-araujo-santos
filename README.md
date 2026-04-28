@@ -41,16 +41,17 @@ Atualmente cursando Análise de Desenvolvimento de Sistemas período noturno na 
  
 ### 📂 Portfólio de Projetos
 
-https://lnkd.in/d3jYkC8Q -> Projeto ZaestraVitta
 
-https://lnkd.in/dv9BpRDg. -> Projeto Verificador de Idade
+| ZaestraVitta | Site de vendas de produto de limpeza | Link -> https://lnkd.in/d3jYkC8Q | 
 
-https://lnkd.in/dM36sMdt -> Projeto Landing Page
+| Verificador de Idade | Site para verificar identidade de pessoas (genérico) | Link -> https://lnkd.in/dv9BpRDg. -> Projeto Verificador de Idade |
+
+| Landing Page | Interface responsiva para divulgar meu trabalho | Link -> https://lnkd.in/dv9BpRDg. -> Projeto Verificador de Idade |
 
 
 #### 🗃️ Modelagem de Banco de Dados
 | Projeto | Descrição | Link |
-| :--- | :--- | :---: |
+|  | :--- | :---: |
 | **Sistema de Gestão Escolar** | Modelagem ER e Scripts SQL para uma instituição de ensino. | [Ver Projeto](./projeto-banco-dados/) |
  
 #### 🤖 Inteligência Artificial
