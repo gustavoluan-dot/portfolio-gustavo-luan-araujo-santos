@@ -44,7 +44,7 @@ Atualmente cursando Análise de Desenvolvimento de Sistemas período noturno na 
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | **Projeto ZaestraVitta** | Site de vendas de produtos de limpeza | [Acessar Link](Projeto-ZaestraVitta-main/Projeto-ZaestraVitta-main) |
-| **Projeto aplicativo Android** | Replicando site do aplicativo ANDROID para praticar HTML e CSS | [Acessar Link](review-project-android-main.zip) |
+
 
  
 #### 🤖 Inteligência Artificial
