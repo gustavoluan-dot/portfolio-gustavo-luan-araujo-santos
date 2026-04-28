@@ -50,7 +50,13 @@ Atualmente cursando Análise de Desenvolvimento de Sistemas período noturno na 
 | **Projeto calculadora em C** | Calculadora utilizando C | [Acessar Link](https://github.com/gustavoluan-dot/review-project-android) |
  
 #### 🤖 Inteligência Artificial
+
+
+
 | Projeto Orça Fácil | é um painel inteligente que centraliza suas propostas comerciais, mostrando de forma rápida e organizada a situação de todos os seus orçamentos em uma única tela. | Link -> https://guluan232-34918.bubbleapps.io/version-test
+ 
+
+
  
 
 
