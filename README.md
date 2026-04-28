@@ -34,30 +34,27 @@ Atualmente cursando Análise de Desenvolvimento de Sistemas período noturno na 
 ![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
  
 #### 🤖 Inteligência Artificial & Ciência de Dados
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
- 
+![Bubble.io](https://img.shields.io/badge/Bubble.io-%2318233C.svg?style=for-the-badge&logo=bubble&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-%238E75B2.svg?style=for-the-badge&logo=googlegemini&logoColor=white) 
 ---
  
 ### 📂 Portfólio de Projetos
 
 
-| ZaestraVitta | Site de vendas de produto de limpeza | Link -> https://lnkd.in/d3jYkC8Q | 
+| Projeto ZaestraVitta | Site de vendas de produto de limpeza | Link -> https://lnkd.in/d3jYkC8Q | 
 
-| Verificador de Idade | Site para verificar identidade de pessoas (genérico) | Link -> https://lnkd.in/dv9BpRDg. -> Projeto Verificador de Idade |
+| Projeto Verificador de Idade | Site para verificar identidade de pessoas (genérico) | Link -> https://lnkd.in/dv9BpRDg. |
 
-| Landing Page | Interface responsiva para divulgar meu trabalho | Link -> https://lnkd.in/dv9BpRDg. -> Projeto Verificador de Idade |
+| Projeto Landing Page | Interface responsiva para divulgar meu trabalho | Link -> https://lnkd.in/dv9BpRDg. |
 
+| Projeto aplicativo Android | Replicando site do aplicativo ANDROID para praticar HTML & CSS | Link ->  https://github.com/gustavoluan-dot/review-project-android |
 
-#### 🗃️ Modelagem de Banco de Dados
-| Projeto | Descrição | Link |
-|  | :--- | :---: |
-| **Sistema de Gestão Escolar** | Modelagem ER e Scripts SQL para uma instituição de ensino. | [Ver Projeto](./projeto-banco-dados/) |
+| Projeto calculadora em C | Calculadora utilizando C | Link ->  https://github.com/gustavoluan-dot/review-project-android |
+
  
 #### 🤖 Inteligência Artificial
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Predição de Churn** | Algoritmo de classificação para prever saída de clientes. | [Ver Projeto](./projeto-ia-churn/) |
+| Projeto Orça Fácil | é um painel inteligente que centraliza suas propostas comerciais, mostrando de forma rápida e organizada a situação de todos os seus orçamentos em uma única tela. | Link -> https://guluan232-34918.bubbleapps.io/version-test
  
 ---
  
