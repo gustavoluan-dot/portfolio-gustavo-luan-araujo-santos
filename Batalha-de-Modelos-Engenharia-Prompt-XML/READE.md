@@ -6,12 +6,13 @@ Este projeto consiste em uma análise crítica e comparativa do desempenho de di
 Desenvolvido com foco no aprimoramento da metacognição e das habilidades em Engenharia de Prompt, o estudo isola a estética do código gerado para focar na aderência estrutural. O processamento dos dados documenta como cada arquitetura de IA lida com o respeito a tags, atributos específicos (como cores) e estruturação semântica, mapeando as nuances, pontos fortes e limitações de cada modelo para tarefas de desenvolvimento Front-end.
 
 
-*Figura 1: Comparativo visual das interfaces geradas pelas diferentes IAs a partir do mesmo prompt, na imagem acima foi adicionado o site que CLAUDE fez.*
-![Interface gerada pelo Claude](Imagem-do-site-claude.png)
-
-
-*Figura 2: Comparativo visual das interfaces geradas pelas diferentes IAs a partir do mesmo prompt, na imagem acima foi adicionado o site que GEMINI fez.*
+*Figura 1: Comparativo visual das interfaces geradas pelas diferentes IAs a partir do mesmo prompt, na imagem abaixo foi adicionado o site que GEMINI fez.*
 ![Interface gerada pelo Gemini](imagem-do-site-gemini.png)
+
+
+*Figura 2: Comparativo visual das interfaces geradas pelas diferentes IAs a partir do mesmo prompt, na imagem abaixo foi adicionado o site que CHATGPT fez.*
+
+
 
 
 
