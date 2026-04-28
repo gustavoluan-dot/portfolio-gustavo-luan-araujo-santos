@@ -35,8 +35,12 @@ O experimento de submissão padronizada alcançou resultados sólidos para a com
 * **Mapeamento de Verbosidade:** Análise da diferença no consumo de tokens e na prolixidade entre as IAs para a geração do exato mesmo escopo de resultado.
 * **Tomada de Decisão Tecnológica:** Formulação de um critério prático para a seleção de ferramentas, definindo qual modelo é o mais eficiente para prototipagem rápida e qual apresenta a robustez necessária para a estruturação de códigos mais complexos.
 
-![Quadro de Análise Comparativa](IMAGEM_2_AQUI)
-*Figura 2: Quadro de análise comparativa de performance e aderência às tags.*
+* 
+*Figura 5: Quadro de análise comparativa de performance e aderência às tags.*
+*OPTEI POR COLOCAR APENAS AS IMAGENS QUE A IA FEZ QUE ATENDERAM O QUE FOI REQUISITADO PARA NAO DEIXAR O MEU READ.ME POLUIDO -> .*
+![Quadro de Análise Comparativa](analise-comparativa.png)
+
+
 
 ## 🔧 Como Executar
 1. Acesse o arquivo `trabalho+IA.pdf` neste diretório para consultar a documentação completa e o quadro de análise.
