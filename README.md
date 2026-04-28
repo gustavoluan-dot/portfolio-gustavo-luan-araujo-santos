@@ -51,8 +51,14 @@ Atualmente cursando Análise de Desenvolvimento de Sistemas período noturno na 
  
 #### 🤖 Inteligência Artificial
 
-! Projeto Engenharia com Bubble.io | Criando um aplicativo de Dashboard | Ver Link -> 
- 
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Projeto Engenharia com Bubble.io** | Criando um aplicativo de Dashboard | [Ver Link](./Engenharia-software-com-bubble-io) |
+| **Projeto imagem com IA** | Detectando pessoas com boné ou sem | [Ver Link](./Laboratório-Classificação-Visual) |
+| **Projeto Batalha de Modelos Engenharia Prompt XML** | Comparando desenvolvimento de interface das IAs | [Ver Link](./Batalha-de-Modelos-Engenharia-Prompt-XML) |
+| **Projeto Prompt** | Adaptando imagem conforme solicitado pelo professor | [Ver Link](./engenharia-de-prompt) |
+
+
 
 
  
