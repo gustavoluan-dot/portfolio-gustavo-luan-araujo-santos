@@ -55,7 +55,7 @@ Atualmente cursando Análise de Desenvolvimento de Sistemas período noturno na 
 | **Projeto imagem com IA** | Detectando pessoas com boné ou sem | [Ver Link](./Laboratório-Classificação-Visual) |
 | **Projeto Batalha de Modelos Engenharia Prompt XML** | Comparando desenvolvimento de interface das IAs | [Ver Link](./Batalha-de-Modelos-Engenharia-Prompt-XML) |
 | **Projeto Prompt** | Adaptando imagem conforme solicitado pelo professor | [Ver Link](./engenharia-de-prompt) |
-| **Projeto Criação de Música com IA** | Criando músicas com IA | [Ver Link](./engenharia-de-prompt) |
+| **Projeto Criação de Música com IA** | Criando músicas com IA | [Ver Link](./trabalho-musica) |
 
 
 
