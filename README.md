@@ -1,9 +1,9 @@
 # 👨‍💻 Gustavo Luan | Software Engineering & Tech Analysis
 
 ## 📝 Sobre Mim
-Profissional em ascensão na área de tecnologia, atualmente com 20 anos e cursando o **2º semestre de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cidade de São Paulo (UNICID)**, no período noturno[cite: 1]. Minha atuação é focada na intersecção entre o desenvolvimento de software e a análise de dados, buscando sempre a eficiência algorítmica e a estruturação lógica de sistemas complexos[cite: 1].
+Profissional em ascensão na área de tecnologia, atualmente com 20 anos e cursando o **2º semestre de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cidade de São Paulo (UNICID)**, no período noturno[cite: 1]. Minha atuação é focada na intersecção entre o desenvolvimento de software e a análise de dados, buscando sempre a eficiência algorítmica e a estruturação lógica de sistemas complexos.
 
-Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, onde aplico metodologias de automação e análise técnica para otimização de fluxos corporativos[cite: 1].
+Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, onde aplico metodologias de automação e análise técnica para otimização de fluxos corporativos.
 
 ---
 
@@ -45,7 +45,7 @@ Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, o
 ### 🛒 Desenvolvimento Web
 | Projeto | Descrição | Link |
 | :--- | :--- | :--- |
-| ZaestraVitta | E-commerce focado em estruturação semântica HTML5 e arquitetura CSS "vanilla"[cite: 1]. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Projeto-ZaestraVitta-main/Projeto-ZaestraVitta-main) |
+| ZaestraVitta | E-commerce focado em estruturação semântica HTML5 e arquitetura CSS "vanilla". | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Projeto-ZaestraVitta-main/Projeto-ZaestraVitta-main) |
 
 ---
 # 🏗️ Estrutura do Repositório
