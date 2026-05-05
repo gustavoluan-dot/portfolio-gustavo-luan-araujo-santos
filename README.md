@@ -36,7 +36,6 @@ Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, o
 | Práticas de IA em Aula | Detetive PIXEL RAIO-X. Repositório externo para práticas contínuas utilizando TypeScript. | [Ver Repositório](https://github.com/gustavoluan-dot/Reposit-rios-de-projetos-feitos-em-aula-na-mat-ria-de-Engenharia-de-Prompt-e-aplica-es-em-IA) |
 | Engenharia de Prompt | Documentação de prática avançada em instruções de alta precisão com refinamento iterativo. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/engenharia-de-prompt) |
 | Laboratório de Áudio | Composição de faixas musicais via IA generativa e síntese de áudio estruturada. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/trabalho-musica) |
-| Laboratório Visual (Principal) | Treinamento de modelo computacional para detecção de acessórios e análise de predição. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Laboratorio-Visual-main/Laboratorio-Visual-main) |
 | Lab. Classificação Visual (Ética) | Experimento focado em viés algorítmico e ética em IA através do arquivo `trabalho+diego.pdf`. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Laborat%C3%B3rio-Classifica%C3%A7%C3%A3o-Visual) |
 | Engenharia de Software (Bubble.io) | Desenvolvimento de aplicações No-Code com foco em dashboards e fluxos de dados. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Engenharia-de-Software-com-Bubble.io) |
 | Batalha de Modelos XML | Avaliação de conformidade entre diferentes LLMs utilizando estruturação técnica XML. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Batalha-de-Modelos-Engenharia-Prompt-XML) |
@@ -57,7 +56,6 @@ Portfólio_Gustavo_Luan/
 │
 ├── README.md                          ← Entry Point
 │
-├── Laboratorio-Visual-main/           ← Detecção de Acessórios
 ├── Laboratório-Classificação-Visual/  ← Viés Algorítmico
 ├── engenharia-de-prompt/              ← Refinamento de LLMs
 ├── trabalho-musica/                   ← Áudio Generativo
