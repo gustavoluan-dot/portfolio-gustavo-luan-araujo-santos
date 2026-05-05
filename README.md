@@ -56,7 +56,7 @@ Atualmente cursando Análise de Desenvolvimento de Sistemas período noturno na 
 | **Projeto Batalha de Modelos Engenharia Prompt XML** | Comparando desenvolvimento de interface das IAs | [Ver Link](./Batalha-de-Modelos-Engenharia-Prompt-XML) |
 | **Projeto Prompt** | Adaptando imagem conforme solicitado pelo professor | [Ver Link](./engenharia-de-prompt) |
 | **Projeto Criação de Música com IA** | Criando músicas com IA | [Ver Link](./trabalho-musica) |
-| Projeto Atividade Manus AI | Criando um aplicativo FitMeet com IA | [Ver Link](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/atividade-manus-ai-main) | | Laboratório-Visual | Experimento de classificação visual e análise de viés algorítmico | [Ver link](https://github.com/gustavoluan-dot/Laboratorio-Visual) |
+| Projeto Atividade Manus AI | Criando um aplicativo FitMeet com IA | [Ver Link](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/atividade-manus-ai-main) | | Laboratório-Visual | Experimento de classificação visual e análise de viés algorítmico | [Ver link](https://github.com/gustavoluan-dot/Laboratorio-Visual) || Laboratório-Visual | Experimento de classificação visual e análise de viés algorítmico | [Ver link](https://github.com/gustavoluan-dot/Laboratorio-Visual) |
 
 
 
