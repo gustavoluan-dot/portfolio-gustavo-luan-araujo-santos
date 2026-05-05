@@ -16,7 +16,6 @@ Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, o
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-
 ### 🗄️ Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -30,38 +29,20 @@ Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, o
 
 # 📂 Portfólio de Projetos
 
-### 🗃️ Modelagem de Banco de Dados
-| Projeto | Descrição | Link |
-| :--- | :--- | :--- |
-| Artefato 01 | Apresentação do Projeto sobre os Melhores Comércios do Brasil | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/MBD_Artefato_01_MelhoresComercios) |
-| Artefato 02 | Dados sobre Minimundo: Melhores Comércios do Brasil | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/MBD_Artefato_02) |
-| Estudo de Caso | Modelagem relacional e estruturação de eventos complexos | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/MBD_Estudo_De_Caso) |
-
-### 🤖 Inteligência Artificial
-| Projeto | Descrição | Link |
-| :--- | :--- | :--- |
-| Laboratório de Classificação Visual | Treinamento de modelo computacional e análise crítica de viés algorítmico. | [Ver Projeto](https://github.com/gustavoluan-dot/Laboratorio-Visual) |
-| Engenharia Reversa | Estudo sobre manutenibilidade de IA e os limites éticos da desconstrução de software. | [Ver Projeto](https://github.com/gustavoluan-dot/Engenharia-Reversa) |
-| Corrida do Prompt | Otimização de queries e técnicas avançadas de comunicação com LLMs. | [Ver Projeto](https://github.com/gustavoluan-dot/engenharia-de-prompt) |
-
 ### 🛒 Desenvolvimento Web
 | Projeto | Descrição | Link |
 | :--- | :--- | :--- |
-| ZaestraVitta | E-commerce focado em estruturação semântica HTML5 e arquitetura CSS "vanilla". | [Ver Projeto](https://github.com/gustavoluan-dot/Projeto-ZaestraVitta-principal) |
+| ZaestraVitta | E-commerce focado em estruturação semântica HTML5 e arquitetura CSS "vanilla". | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Projeto-ZaestraVitta-principal) |
 
 ---
 
 # 🏗️ Estrutura do Repositório
+Abaixo, a organização deste repositório para facilitar a navegação:
+
 ```text
 Portfólio_Gustavo_Luan/
 │
 ├── README.md  ← principal
-│
-├── MBD_Artefato_01_MelhoresComercios/
-│   └── README.md + arquivos...
-│
-├── SM2_Laboratorio_Classificacao_Visual/
-│   └── README.md + arquivos...
 │
 └── Projeto-ZaestraVitta-principal/
     └── README.md + arquivos...
