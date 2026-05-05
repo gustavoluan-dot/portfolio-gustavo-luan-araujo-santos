@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Fundo circular verde -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M50,5 A45,45 0 1,1 49.99,5 Z"/>
+
+    <!-- Haltere branco -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,42 L25,58 L35,58 L35,54 L65,54 L65,58 L75,58 L75,42 L65,42 L65,46 L35,46 L35,42 Z"/>
+
+    <!-- Peso esquerdo -->
+    <rect
+        android:fillColor="#FFFFFF"
+        android:left="20"
+        android:top="38"
+        android:right="30"
+        android:bottom="62"/>
+
+    <!-- Peso direito -->
+    <rect
+        android:fillColor="#FFFFFF"
+        android:left="70"
+        android:top="38"
+        android:right="80"
+        android:bottom="62"/>
+
+    <!-- Barra central -->
+    <rect
+        android:fillColor="#CCFFFFFF"
+        android:left="30"
+        android:top="47"
+        android:right="70"
+        android:bottom="53"/>
+
+</vector>

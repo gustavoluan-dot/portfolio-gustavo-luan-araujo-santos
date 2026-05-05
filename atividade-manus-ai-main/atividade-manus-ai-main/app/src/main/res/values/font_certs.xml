@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Referência de fontes do sistema usadas no app -->
+<resources>
+    <!-- Roboto Bold é uma fonte padrão do Android, não precisa de arquivo externo -->
+</resources>

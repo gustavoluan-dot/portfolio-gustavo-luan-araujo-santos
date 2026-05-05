@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores primárias — tema fitness escuro -->
+    <color name="green_primary">#00C853</color>
+    <color name="green_dark">#00962E</color>
+    <color name="green_light">#69F0AE</color>
+
+    <!-- Cores de destaque -->
+    <color name="orange_accent">#FF6D00</color>
+    <color name="orange_light">#FFAB40</color>
+    <color name="red_error">#F44336</color>
+    <color name="blue_info">#2196F3</color>
+
+    <!-- Fundos -->
+    <color name="bg_dark">#121212</color>
+    <color name="bg_surface">#1E1E1E</color>
+    <color name="card_bg">#1F1F1F</color>
+    <color name="card_bg_light">#2C2C2C</color>
+
+    <!-- Textos -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_hint">#666666</color>
+
+    <!-- Utilitários -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Cores do sistema (Material) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

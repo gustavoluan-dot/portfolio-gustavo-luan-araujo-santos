@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMeet — Pré-visualização do App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ============================================================
+           RESET E BASE
+        ============================================================ */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --green-primary: #00C853;
+            --green-dark: #00962E;
+            --green-light: #69F0AE;
+            --orange-accent: #FF6D00;
+            --orange-light: #FFAB40;
+            --red-error: #F44336;
+            --bg-dark: #121212;
+            --bg-surface: #1E1E1E;
+            --card-bg: #1F1F1F;
+            --card-bg-light: #2C2C2C;
+            --text-primary: #FFFFFF;
+            --text-secondary: #B0B0B0;
+            --text-hint: #666666;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #0A0A0A;
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* ============================================================
+           HEADER DA PÁGINA
+        ============================================================ */
+        .page-header {
+            width: 100%;
+            background: linear-gradient(135deg, #0A0A0A 0%, #1a1a2e 100%);
+            padding: 32px 24px 24px;
+            text-align: center;
+            border-bottom: 2px solid var(--green-primary);
+        }
+
+        .page-header h1 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--green-primary);
+            letter-spacing: -1px;
+        }
+
+        .page-header p {
+            color: var(--text-secondary);
+            margin-top: 6px;
+            font-size: 0.95rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--green-primary);
+            color: #000;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-top: 10px;
+            letter-spacing: 1px;
+        }
+
+        /* ============================================================
+           CONTAINER PRINCIPAL
+        ============================================================ */
+        .main-container {
+            display: flex;
+            gap: 32px;
+            padding: 32px 24px;
+            max-width: 1100px;
+            width: 100%;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* ============================================================
+           MOCKUP DO CELULAR
+        ============================================================ */
+        .phone-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .screen-label {
+            font-size: 0.8rem;
+            color: var(--text-hint);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .phone-frame {
+            width: 360px;
+            height: 720px;
+            background: #000;
+            border-radius: 40px;
+            border: 3px solid #333;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 30px 80px rgba(0,200,83,0.15), 0 0 0 1px #222;
+        }
+
+        /* Notch do celular */
+        .phone-frame::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 28px;
+            background: #000;
+            border-radius: 0 0 20px 20px;
+            z-index: 100;
+        }
+
+        /* ============================================================
+           TELA: LOBBY
+        ============================================================ */
+        .screen {
+            width: 100%;
+            height: 100%;
+            background: var(--bg-dark);
+            display: none;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+
+        .screen.active { display: flex; }
+
+        /* Lobby */
+        #screenLobby {
+            align-items: center;
+            padding: 50px 20px 20px;
+        }
+
+        .logo-circle {
+            width: 90px;
+            height: 90px;
+            background: var(--green-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            margin-top: 20px;
+            font-size: 2.5rem;
+            box-shadow: 0 0 30px rgba(0,200,83,0.4);
+        }
+
+        .lobby-title {
+            font-size: 2.4rem;
+            font-weight: 900;
+            color: var(--green-primary);
+            letter-spacing: -1px;
+        }
+
+        .lobby-subtitle {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 28px;
+            text-align: center;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 18px;
+            width: 100%;
+            margin-bottom: 12px;
+        }
+
+        .input-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .input-field {
+            width: 100%;
+            background: var(--card-bg-light);
+            border: 1.5px solid #333;
+            border-radius: 8px;
+            padding: 10px 12px;
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-family: 'Roboto', sans-serif;
+            outline: none;
+            transition: border-color 0.2s;
+            margin-bottom: 12px;
+        }
+
+        .input-field:focus { border-color: var(--green-primary); }
+
+        .radio-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 4px;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            font-size: 0.82rem;
+            color: var(--text-primary);
+        }
+
+        .radio-option input { accent-color: var(--green-primary); }
+
+        .btn-primary {
+            width: 100%;
+            background: var(--green-primary);
+            color: #000;
+            border: none;
+            border-radius: 14px;
+            padding: 14px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+            letter-spacing: 1px;
+            transition: all 0.2s;
+            margin-top: 4px;
+        }
+
+        .btn-primary:hover {
+            background: var(--green-light);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 20px rgba(0,200,83,0.3);
+        }
+
+        .version-text {
+            font-size: 0.65rem;
+            color: var(--text-hint);
+            margin-top: 16px;
+        }
+
+        /* ============================================================
+           TELA: SALA DE TREINO
+        ============================================================ */
+        #screenRoom {
+            flex-direction: column;
+        }
+
+        /* Área do vídeo Jitsi */
+        .video-area {
+            height: 55%;
+            background: #000;
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .video-placeholder {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0d1117 0%, #1a2a1a 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .video-avatar {
+            width: 70px;
+            height: 70px;
+            background: var(--green-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        .video-name {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Mini câmera própria */
+        .self-video {
+            position: absolute;
+            bottom: 50px;
+            right: 10px;
+            width: 70px;
+            height: 90px;
+            background: #1a2a1a;
+            border-radius: 8px;
+            border: 2px solid var(--green-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        /* Barra de status da sala */
+        .room-status-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--red-error);
+            flex-shrink: 0;
+        }
+
+        .status-dot.active { background: var(--green-primary); animation: pulse 1.5s infinite; }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .room-name-text {
+            font-size: 0.72rem;
+            color: #fff;
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .participants-text {
+            font-size: 0.72rem;
+            color: #fff;
+        }
+
+        /* FAB encerrar chamada */
+        .fab-end-call {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            background: var(--red-error);
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            box-shadow: 0 4px 12px rgba(244,67,54,0.5);
+            transition: transform 0.2s;
+        }
+
+        .fab-end-call:hover { transform: scale(1.1); }
+
+        /* Divisor verde */
+        .green-divider {
+            height: 3px;
+            background: var(--green-primary);
+            flex-shrink: 0;
+        }
+
+        /* Área de ferramentas */
+        .tools-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Card de cronômetro */
+        .tool-card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .tool-card-header {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+
+        .tool-card-icon { font-size: 1rem; }
+
+        .tool-card-title {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+        }
+
+        .tool-card-title.green { color: var(--green-primary); }
+        .tool-card-title.orange { color: var(--orange-accent); }
+
+        /* Display do cronômetro */
+        .timer-display {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 2px;
+            margin: 6px 0;
+        }
+
+        /* Botões do cronômetro */
+        .timer-buttons {
+            display: flex;
+            gap: 6px;
+        }
+
+        .btn-timer {
+            flex: 1;
+            padding: 9px 4px;
+            border: none;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            transition: all 0.15s;
+        }
+
+        .btn-timer:hover { filter: brightness(1.15); transform: translateY(-1px); }
+        .btn-timer:active { transform: translateY(0); }
+
+        .btn-start { background: var(--green-primary); color: #000; }
+        .btn-pause { background: var(--orange-accent); color: #fff; }
+        .btn-reset { background: var(--card-bg-light); color: var(--text-secondary); }
+
+        /* Contador de repetições */
+        .reps-counter {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 8px 0;
+        }
+
+        .btn-reps {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: none;
+            font-size: 1.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.15s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-reps:hover { filter: brightness(1.2); transform: scale(1.05); }
+        .btn-reps:active { transform: scale(0.95); }
+
+        .btn-minus { background: var(--card-bg-light); color: var(--text-secondary); }
+        .btn-plus { background: var(--orange-accent); color: #fff; }
+
+        .reps-display {
+            text-align: center;
+        }
+
+        .reps-number {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1;
+            display: block;
+            transition: transform 0.1s;
+        }
+
+        .reps-number.bump {
+            transform: scale(1.3);
+        }
+
+        .reps-unit {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+        }
+
+        .sets-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #333;
+        }
+
+        .sets-label {
+            font-size: 0.72rem;
+            color: var(--text-secondary);
+        }
+
+        .sets-count {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--orange-accent);
+        }
+
+        .btn-add-set {
+            background: var(--green-dark);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 5px 10px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .btn-add-set:hover { background: var(--green-primary); color: #000; }
+
+        /* Input de exercício */
+        .exercise-input {
+            width: 100%;
+            background: var(--card-bg-light);
+            border: 1.5px solid #333;
+            border-radius: 8px;
+            padding: 7px 10px;
+            color: var(--text-primary);
+            font-size: 0.78rem;
+            font-family: 'Roboto', sans-serif;
+            outline: none;
+            margin-bottom: 8px;
+        }
+
+        .exercise-input:focus { border-color: var(--orange-accent); }
+
+        /* ============================================================
+           PAINEL DE INFORMAÇÕES (LADO DIREITO)
+        ============================================================ */
+        .info-panel {
+            flex: 1;
+            min-width: 280px;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .info-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            border-left: 4px solid var(--green-primary);
+        }
+
+        .info-card.orange { border-left-color: var(--orange-accent); }
+        .info-card.blue { border-left-color: #2196F3; }
+
+        .info-card h3 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--green-primary);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .info-card.orange h3 { color: var(--orange-accent); }
+        .info-card.blue h3 { color: #2196F3; }
+
+        .info-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .info-list li {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            line-height: 1.4;
+        }
+
+        .info-list li::before {
+            content: '▸';
+            color: var(--green-primary);
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .info-card.orange .info-list li::before { color: var(--orange-accent); }
+        .info-card.blue .info-list li::before { color: #2196F3; }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .tech-badge {
+            background: var(--card-bg-light);
+            border: 1px solid #333;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 0.75rem;
+            color: var(--text-primary);
+        }
+
+        .tech-badge.green { border-color: var(--green-primary); color: var(--green-primary); }
+        .tech-badge.orange { border-color: var(--orange-accent); color: var(--orange-accent); }
+
+        /* ============================================================
+           NAVEGAÇÃO DAS TELAS
+        ============================================================ */
+        .screen-nav {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .nav-btn {
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1.5px solid #333;
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .nav-btn.active {
+            background: var(--green-primary);
+            border-color: var(--green-primary);
+            color: #000;
+            font-weight: 700;
+        }
+
+        .nav-btn:hover:not(.active) {
+            border-color: var(--green-primary);
+            color: var(--green-primary);
+        }
+
+        /* ============================================================
+           TOAST NOTIFICATION
+        ============================================================ */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            transition: transform 0.3s ease;
+            z-index: 1000;
+            white-space: nowrap;
+        }
+
+        .toast.show { transform: translateX(-50%) translateY(0); }
+
+        /* ============================================================
+           FOOTER
+        ============================================================ */
+        .page-footer {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #222;
+            color: var(--text-hint);
+            font-size: 0.75rem;
+        }
+
+        /* ============================================================
+           RESPONSIVO
+        ============================================================ */
+        @media (max-width: 768px) {
+            .main-container { padding: 16px; gap: 24px; }
+            .phone-frame { width: 320px; height: 640px; }
+            .timer-display { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="page-header">
+        <h1>💪 FitMeet</h1>
+        <p>Pré-visualização Interativa do Aplicativo Android</p>
+        <span class="badge">DEMO FUNCIONAL</span>
+    </header>
+
+    <!-- CONTAINER PRINCIPAL -->
+    <div class="main-container">
+
+        <!-- MOCKUP DO CELULAR -->
+        <div class="phone-wrapper">
+            <div class="screen-nav">
+                <button class="nav-btn active" onclick="showScreen('lobby')">🏠 Lobby</button>
+                <button class="nav-btn" onclick="showScreen('room')">🎥 Sala de Treino</button>
+            </div>
+
+            <div class="phone-frame">
+
+                <!-- ===== TELA LOBBY ===== -->
+                <div class="screen active" id="screenLobby">
+                    <div class="logo-circle">🏋️</div>
+                    <div class="lobby-title">FitMeet</div>
+                    <div class="lobby-subtitle">Treino Personalizado em Tempo Real</div>
+
+                    <div class="card">
+                        <label class="input-label">Seu Nome</label>
+                        <input class="input-field" type="text" id="inputUserName"
+                               placeholder="Ex: João Silva" value="João Silva">
+
+                        <label class="input-label">Código da Sala de Treino</label>
+                        <input class="input-field" type="text" id="inputRoomName"
+                               placeholder="Ex: treino-joao-segunda" value="fitmeet-a3b7c2d1">
+
+                        <label class="input-label">Meu Perfil</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="profile" value="student" checked> Aluno
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="profile" value="trainer"> Personal Trainer
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="btn-primary" onclick="enterRoom()">
+                        🏋️ INICIAR TREINO
+                    </button>
+
+                    <div class="version-text">v1.0.0 • Powered by Jitsi Meet</div>
+                </div>
+
+                <!-- ===== TELA SALA DE TREINO ===== -->
+                <div class="screen" id="screenRoom">
+
+                    <!-- Área do vídeo -->
+                    <div class="video-area">
+                        <div class="video-placeholder">
+                            <div class="video-avatar">👨‍🏫</div>
+                            <div class="video-name" id="trainerName">Personal Trainer</div>
+                        </div>
+
+                        <!-- Mini câmera própria -->
+                        <div class="self-video">🤳</div>
+
+                        <!-- Barra de status -->
+                        <div class="room-status-bar">
+                            <div class="status-dot active" id="statusDot"></div>
+                            <span class="room-name-text" id="roomNameDisplay">fitmeet-a3b7c2d1</span>
+                            <span class="participants-text">👥 2</span>
+                        </div>
+
+                        <!-- FAB encerrar -->
+                        <button class="fab-end-call" onclick="endCall()" title="Encerrar chamada">📵</button>
+                    </div>
+
+                    <!-- Divisor verde -->
+                    <div class="green-divider"></div>
+
+                    <!-- Ferramentas de treino -->
+                    <div class="tools-area">
+
+                        <!-- Cronômetro -->
+                        <div class="tool-card">
+                            <div class="tool-card-header">
+                                <span class="tool-card-icon">⏱️</span>
+                                <span class="tool-card-title green">CRONÔMETRO</span>
+                            </div>
+                            <div class="timer-display" id="timerDisplay">00:00:00</div>
+                            <div class="timer-buttons">
+                                <button class="btn-timer btn-start" id="btnStart" onclick="startTimer()">▶ INICIAR</button>
+                                <button class="btn-timer btn-pause" id="btnPause" onclick="pauseTimer()" style="opacity:0.5" disabled>⏸ PAUSAR</button>
+                                <button class="btn-timer btn-reset" onclick="resetTimer()">↺ ZERAR</button>
+                            </div>
+                        </div>
+
+                        <!-- Contador de Repetições -->
+                        <div class="tool-card">
+                            <div class="tool-card-header">
+                                <span class="tool-card-icon">💪</span>
+                                <span class="tool-card-title orange">REPETIÇÕES</span>
+                            </div>
+                            <input class="exercise-input" type="text" id="exerciseName"
+                                   placeholder="Nome do exercício" value="Supino Reto">
+                            <div class="reps-counter">
+                                <button class="btn-reps btn-minus" onclick="decrementReps()">−</button>
+                                <div class="reps-display">
+                                    <span class="reps-number" id="repsDisplay">0</span>
+                                    <span class="reps-unit">repetições</span>
+                                </div>
+                                <button class="btn-reps btn-plus" onclick="incrementReps()">+</button>
+                            </div>
+                            <div class="sets-row">
+                                <span class="sets-label">Séries concluídas:</span>
+                                <span class="sets-count" id="setsDisplay">0</span>
+                                <button class="btn-add-set" onclick="addSet()">+ Série</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div><!-- /phone-frame -->
+        </div><!-- /phone-wrapper -->
+
+        <!-- PAINEL DE INFORMAÇÕES -->
+        <div class="info-panel">
+
+            <div class="info-card">
+                <h3>🎯 O Que Este App Resolve</h3>
+                <ul class="info-list">
+                    <li>Conecta professor e aluno em videochamada HD durante o treino</li>
+                    <li>Cronômetro integrado para controlar tempo de exercício e descanso</li>
+                    <li>Contador de repetições com registro automático de séries</li>
+                    <li>Notas do treino anotadas em tempo real durante a aula</li>
+                    <li>Sem necessidade de trocar de app durante o treino</li>
+                </ul>
+            </div>
+
+            <div class="info-card orange">
+                <h3>⚙️ Tecnologias Utilizadas</h3>
+                <div class="tech-stack">
+                    <span class="tech-badge green">Kotlin</span>
+                    <span class="tech-badge green">Android SDK 34</span>
+                    <span class="tech-badge orange">Jitsi Meet SDK 9.2.2</span>
+                    <span class="tech-badge">Material Design 3</span>
+                    <span class="tech-badge">ViewBinding</span>
+                    <span class="tech-badge">Handler/Runnable</span>
+                    <span class="tech-badge">WebRTC</span>
+                    <span class="tech-badge">meet.jit.si</span>
+                </div>
+            </div>
+
+            <div class="info-card blue">
+                <h3>📱 Funcionalidades do App</h3>
+                <ul class="info-list">
+                    <li><strong>Tela Lobby:</strong> Nome, código da sala e perfil (Aluno/Personal)</li>
+                    <li><strong>Sala de Treino:</strong> Vídeo Jitsi na metade superior da tela</li>
+                    <li><strong>Cronômetro:</strong> Iniciar, Pausar e Zerar com display HH:MM:SS</li>
+                    <li><strong>Contador:</strong> Botões + e − com animação e registro de séries</li>
+                    <li><strong>Notas:</strong> Campo de texto para anotações do treino</li>
+                    <li><strong>Permissões:</strong> Câmera e microfone solicitados automaticamente</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div><!-- /main-container -->
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        FitMeet — Projeto Android com Jitsi Meet SDK &nbsp;|&nbsp;
+        Desenvolvido em Kotlin &nbsp;|&nbsp;
+        Servidor: <a href="https://meet.jit.si" target="_blank" style="color: var(--green-primary)">meet.jit.si</a>
+    </footer>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // ============================================================
+        //  NAVEGAÇÃO ENTRE TELAS
+        // ============================================================
+        function showScreen(name) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+
+            if (name === 'lobby') {
+                document.getElementById('screenLobby').classList.add('active');
+                document.querySelectorAll('.nav-btn')[0].classList.add('active');
+            } else {
+                document.getElementById('screenRoom').classList.add('active');
+                document.querySelectorAll('.nav-btn')[1].classList.add('active');
+            }
+        }
+
+        function enterRoom() {
+            const name = document.getElementById('inputUserName').value.trim();
+            const room = document.getElementById('inputRoomName').value.trim();
+
+            if (!name) { showToast('⚠️ Informe seu nome'); return; }
+            if (!room) { showToast('⚠️ Informe o código da sala'); return; }
+
+            document.getElementById('roomNameDisplay').textContent = room;
+            showScreen('room');
+            showToast('✅ Conectado à sala de treino!');
+
+            // Simula conexão com delay
+            setTimeout(() => {
+                document.getElementById('statusDot').classList.add('active');
+            }, 1500);
+        }
+
+        function endCall() {
+            if (confirm('Encerrar o treino e sair da sala?')) {
+                stopTimer();
+                showScreen('lobby');
+                showToast('👋 Treino encerrado!');
+            }
+        }
+
+        // ============================================================
+        //  CRONÔMETRO
+        // ============================================================
+        let timerInterval = null;
+        let timerSeconds = 0;
+        let isRunning = false;
+
+        function startTimer() {
+            if (isRunning) return;
+            isRunning = true;
+            timerInterval = setInterval(() => {
+                timerSeconds++;
+                updateTimerDisplay();
+            }, 1000);
+
+            document.getElementById('btnStart').disabled = true;
+            document.getElementById('btnStart').style.opacity = '0.5';
+            document.getElementById('btnPause').disabled = false;
+            document.getElementById('btnPause').style.opacity = '1';
+            document.getElementById('btnStart').textContent = '▶ RODANDO';
+        }
+
+        function pauseTimer() {
+            if (!isRunning) return;
+            isRunning = false;
+            clearInterval(timerInterval);
+
+            document.getElementById('btnStart').disabled = false;
+            document.getElementById('btnStart').style.opacity = '1';
+            document.getElementById('btnStart').textContent = '▶ RETOMAR';
+            document.getElementById('btnPause').disabled = true;
+            document.getElementById('btnPause').style.opacity = '0.5';
+        }
+
+        function stopTimer() {
+            isRunning = false;
+            clearInterval(timerInterval);
+        }
+
+        function resetTimer() {
+            if (timerSeconds > 0) {
+                const currentTime = document.getElementById('timerDisplay').textContent;
+                if (confirm(`Zerar o cronômetro? (${currentTime})`)) {
+                    stopTimer();
+                    timerSeconds = 0;
+                    updateTimerDisplay();
+                    document.getElementById('btnStart').disabled = false;
+                    document.getElementById('btnStart').style.opacity = '1';
+                    document.getElementById('btnStart').textContent = '▶ INICIAR';
+                    document.getElementById('btnPause').disabled = true;
+                    document.getElementById('btnPause').style.opacity = '0.5';
+                }
+            }
+        }
+
+        function updateTimerDisplay() {
+            const h = Math.floor(timerSeconds / 3600);
+            const m = Math.floor((timerSeconds % 3600) / 60);
+            const s = timerSeconds % 60;
+            document.getElementById('timerDisplay').textContent =
+                `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+        }
+
+        // ============================================================
+        //  CONTADOR DE REPETIÇÕES
+        // ============================================================
+        let repsCount = 0;
+        let setsCount = 0;
+
+        function incrementReps() {
+            repsCount++;
+            updateRepsDisplay();
+            bumpAnimation();
+        }
+
+        function decrementReps() {
+            if (repsCount > 0) {
+                repsCount--;
+                updateRepsDisplay();
+            } else {
+                showToast('⚠️ Contador já está em zero');
+            }
+        }
+
+        function addSet() {
+            if (repsCount > 0) {
+                setsCount++;
+                const exercise = document.getElementById('exerciseName').value || 'Exercício';
+                showToast(`✅ Série ${setsCount}: ${repsCount} reps de ${exercise}`);
+                repsCount = 0;
+                updateRepsDisplay();
+                document.getElementById('setsDisplay').textContent = setsCount;
+            } else {
+                showToast('⚠️ Faça ao menos 1 repetição');
+            }
+        }
+
+        function updateRepsDisplay() {
+            document.getElementById('repsDisplay').textContent = repsCount;
+        }
+
+        function bumpAnimation() {
+            const el = document.getElementById('repsDisplay');
+            el.classList.add('bump');
+            setTimeout(() => el.classList.remove('bump'), 150);
+        }
+
+        // ============================================================
+        //  TOAST
+        // ============================================================
+        let toastTimeout = null;
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+            if (toastTimeout) clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => toast.classList.remove('show'), 2800);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitMeet</string>
+    <string name="app_description">Treino Personalizado em Tempo Real</string>
+
+    <!-- Lobby -->
+    <string name="label_your_name">Seu Nome</string>
+    <string name="hint_your_name">Ex: João Silva</string>
+    <string name="label_room_code">Código da Sala de Treino</string>
+    <string name="hint_room_code">Ex: treino-joao-segunda</string>
+    <string name="label_profile">Meu Perfil</string>
+    <string name="profile_student">Aluno</string>
+    <string name="profile_trainer">Personal Trainer</string>
+    <string name="btn_start_training">INICIAR TREINO</string>
+    <string name="error_empty_name">Informe seu nome</string>
+    <string name="error_empty_room">Informe o código da sala</string>
+
+    <!-- Sala de Treino -->
+    <string name="label_timer">CRONÔMETRO</string>
+    <string name="label_reps">REPETIÇÕES</string>
+    <string name="label_notes">NOTAS DO TREINO</string>
+    <string name="btn_start">INICIAR</string>
+    <string name="btn_pause">PAUSAR</string>
+    <string name="btn_resume">RETOMAR</string>
+    <string name="btn_reset">ZERAR</string>
+    <string name="btn_add_set">+ Série</string>
+    <string name="hint_exercise_name">Nome do exercício</string>
+    <string name="hint_notes">Anotações do treino de hoje...</string>
+    <string name="label_sets_completed">Séries concluídas:</string>
+    <string name="label_reps_unit">repetições</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_reset_timer_title">Zerar Cronômetro?</string>
+    <string name="dialog_end_call_title">Encerrar Treino?</string>
+    <string name="dialog_end_call_message">Você irá sair da sala de videoconferência.</string>
+    <string name="btn_end">Encerrar</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <!-- Permissões -->
+    <string name="permission_rationale">Câmera e microfone são necessários para a videochamada de treino.</string>
+
+    <!-- Versão -->
+    <string name="app_version">v1.0.0 • Powered by Jitsi Meet</string>
+</resources>
