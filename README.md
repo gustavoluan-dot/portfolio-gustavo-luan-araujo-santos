@@ -1,9 +1,9 @@
 # 👨‍💻 Gustavo Luan | Software Engineering & Tech Analysis
 
 ## 📝 Sobre Mim
-Profissional em ascensão na área de tecnologia, atualmente com 20 anos e cursando o **2º semestre de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cidade de São Paulo (UNICID)**, no período noturno[cite: 1]. Minha atuação é focada na intersecção entre o desenvolvimento de software e a análise de dados, buscando sempre a eficiência algorítmica e a estruturação lógica de sistemas complexos[cite: 1].
+Profissional em ascensão na área de tecnologia, atualmente com 20 anos e cursando o **2º semestre de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cidade de São Paulo (UNICID)**, no período noturno. Minha atuação é focada na intersecção entre o desenvolvimento de software e a análise de dados, buscando sempre a eficiência algorítmica e a estruturação lógica de sistemas complexos.
 
-Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, onde aplico metodologias de automação e análise técnica para otimização de fluxos corporativos[cite: 1].
+Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, onde aplico metodologias de automação e análise técnica para otimização de fluxos corporativos.
 
 ---
 
@@ -30,21 +30,17 @@ Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, o
 
 # 📂 Portfólio de Projetos
 
-### 🤖 Projetos de Engenharia de Prompt e IA
+### 🏫 Atividades feitas em sala de aula
 | Projeto | Descrição | Link |
 | :--- | :--- | :--- |
-| Práticas de IA em Aula | Detetive PIXEL RAIO-X. | [Ver Repositório](https://github.com/gustavoluan-dot/Reposit-rios-de-projetos-feitos-em-aula-na-mat-ria-de-Engenharia-de-Prompt-e-aplica-es-em-IA) |
+| Práticas de IA em Aula | Detetive PIXEL RAIO-X. Repositório externo para práticas contínuas utilizando TypeScript. | [Ver Repositório](https://github.com/gustavoluan-dot/Reposit-rios-de-projetos-feitos-em-aula-na-mat-ria-de-Engenharia-de-Prompt-e-aplica-es-em-IA) |
 | Engenharia de Prompt | Documentação de prática avançada em instruções de alta precisão com refinamento iterativo. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/engenharia-de-prompt) |
 | Laboratório de Áudio | Composição de faixas musicais via IA generativa e síntese de áudio estruturada. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/trabalho-musica) |
-
-### 🏫 Atividades em Sala de Aula
-| Projeto | Descrição | Link |
-| :--- | :--- | :--- |
 | Laboratório Visual (Principal) | Treinamento de modelo computacional para detecção de acessórios e análise de predição. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Laboratorio-Visual-main/Laboratorio-Visual-main) |
-| Lab. Classificação Visual (Ética) | Experimento focado em viés algorítmico e ética em IA (trabalho+diego.pdf). | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Laborat%C3%B3rio-Classifica%C3%A7%C3%A3o-Visual) |
-| Engenharia de Software (Bubble.io) | Desenvolvimento de aplicações No-Code com foco em dashboards. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Engenharia-de-Software-com-Bubble.io) |
-| Batalha de Modelos XML | Avaliação de conformidade entre diferentes LLMs utilizando estruturação XML. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Batalha-de-Modelos-Engenharia-Prompt-XML) |
-| Atividade Manus AI (FitMeet) | Solução de videoconferência interativa desenvolvida com Jitsi Meet SDK. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/atividade-manus-ai-main/atividade-manus-ai-main) |
+| Lab. Classificação Visual (Ética) | Experimento focado em viés algorítmico e ética em IA através do arquivo `trabalho+diego.pdf`. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Laborat%C3%B3rio-Classifica%C3%A7%C3%A3o-Visual) |
+| Engenharia de Software (Bubble.io) | Desenvolvimento de aplicações No-Code com foco em dashboards e fluxos de dados. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Engenharia-de-Software-com-Bubble.io) |
+| Batalha de Modelos XML | Avaliação de conformidade entre diferentes LLMs utilizando estruturação técnica XML. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/Batalha-de-Modelos-Engenharia-Prompt-XML) |
+| Atividade Manus AI (FitMeet) | Solução de videoconferência interativa integrada com Jitsi Meet SDK para treinos remotos. | [Ver Projeto](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos/tree/main/atividade-manus-ai-main/atividade-manus-ai-main) |
 
 ### 🛒 Desenvolvimento Web
 | Projeto | Descrição | Link |
@@ -54,18 +50,18 @@ Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, o
 ---
 
 # 🏗️ Estrutura do Repositório
-Abaixo, a organização técnica atualizada para facilitar a navegação:
+Organização do ambiente de desenvolvimento para navegação rápida:
 
 ```text
 Portfólio_Gustavo_Luan/
 │
-├── README.md                          ← Principal
+├── README.md                          ← Entry Point
 │
-├── Laboratorio-Visual-main/           ← Classificação Visual Geral
-├── Laboratório-Classificação-Visual/  ← Viés e Ética
-├── engenharia-de-prompt/              ← Otimização iterativa
-├── trabalho-musica/                   ← Geração musical via IA
+├── Laboratorio-Visual-main/           ← Detecção de Acessórios
+├── Laboratório-Classificação-Visual/  ← Viés Algorítmico
+├── engenharia-de-prompt/              ← Refinamento de LLMs
+├── trabalho-musica/                   ← Áudio Generativo
 ├── Engenharia-de-Software-com-Bubble.io/
 ├── Batalha-de-Modelos-Engenharia-Prompt-XML/
-├── atividade-manus-ai-main/           ← FitMeet (Android/Kotlin)
-└── Projeto-ZaestraVitta-main/          ← E-commerce
+├── atividade-manus-ai-main/           ← Projeto FitMeet
+└── Projeto-ZaestraVitta-main/          ← Arquitetura Web
