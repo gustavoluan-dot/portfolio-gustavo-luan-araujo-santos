@@ -1,27 +1,34 @@
-# 🎵 Laboratório de Áudio: Engenharia de Prompt para Geração Musical
+# 🎵 Projeto Música & IA: Composição Generativa com Gemini e Suno
+
+![GitHub language count](https://img.shields.io/github/languages/count/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 
 ## 📝 Descrição do Projeto
-Este diretório armazena os artefatos de áudio desenvolvidos através de técnicas de Engenharia de Prompt aplicadas a modelos de Inteligência Artificial generativa de música. O objetivo do projeto foi explorar a capacidade da IA de interpretar instruções textuais detalhadas — incluindo métrica, gênero musical, instrumentação e carga emocional — para compor e produzir faixas de áudio completas.
+Este projeto explora a intersecção entre criatividade humana e Inteligência Artificial. Utilizando técnicas de **RAG (Retrieval-Augmented Generation)** através do Gemini Gems, foi criado um assistente especializado na análise lírica. O objetivo final foi a produção de um EP com 5 faixas inéditas, cujas letras foram geradas pela IA e a produção musical realizada via Suno AI.
 
-O laboratório foca na transição da linguagem natural para parâmetros estruturados que os modelos de síntese de áudio conseguem processar, demonstrando o controle técnico sobre ritmo, melodia, arranjos e vocais.
+## 🛠️ Tecnologias Utilizadas
+* **Gemini Gems:** Criação de base de conhecimento e geração de letras.
+* **Suno AI:** Geração de áudio e arranjos instrumentais.
+* **GitHub:** Documentação e versionamento do projeto.
 
-## 📂 Conteúdo do Diretório
-O repositório contém as seguintes composições geradas via parâmetros de IA:
-* `Mapa do Sentimento.mp3`
-* `Minha Melhor Metade.mp3`
-* `Minha Rota é Você.mp3`
-* `Sol do Teu Olhar.mp3`
+## 🚀 Assistente Personalizado
+O assistente (Gems) utilizado para modelagem das letras pode ser acessado através do link abaixo:
+> [Link para o meu Gemini Gems](https://gemini.google.com/gem/f7281e8e5f56)
 
-## 🚀 Tecnologias e Técnicas Aplicadas
-* **Metodologia:** Engenharia de Prompt paramétrica para Áudio.
-* **Estruturação:** Uso de *metatags* para controle de estrutura musical (ex: `[Verse]`, `[Chorus]`, `[Bridge]`) e descritores de engenharia de som.
-* **Ferramentas de IA:** Modelos generativos de síntese musical baseados em processamento de linguagem natural (ex: Suno AI, Udio, etc.).
+## 🎧 Músicas Geradas
+| Faixa | Título | Estilo/Referência | Link do Áudio |
+| :--- | :--- | :--- | :--- |
+| 01 | Mapa do Sentimento | [Estilo] | [Arquivo MP3](./Mapa%20do%20Sentimento.mp3) |
+| 02 | Minha Melhor Metade | [Estilo] | [Arquivo MP3](./Minha%20Melhor%20Metade.mp3) |
+| 03 | Minha Rota é Você | [Estilo] | [Arquivo MP3](./Minha%20Rota%20é%20Você.mp3) |
+| 04 | O Plano Perfeito | [Estilo] | [Arquivo MP3](./O%20Plano%20Perfeito.mp3) |
+| 05 | Sol do Teu Olhar | [Estilo] | [Arquivo MP3](./Sol%20do%20Teu%20Olhar.mp3) |
 
-## 📊 Resultados e Aprendizados
-A experimentação com síntese musical via IA proporcionou validações técnicas sobre a manipulação de algoritmos generativos não-textuais:
-* **Controle Semântico de Áudio:** Compreensão prática de como descritores de gênero, andamento (BPM) e *mood* afetam diretamente a mixagem e a instrumentação renderizada pela máquina.
-* **Estruturação de Prompts Híbridos:** Desenvolvimento da habilidade de mesclar inputs de texto (letras) com comandos de direção musical estruturada, garantindo coesão nas transições da composição.
-* **Avaliação de Fidelidade:** Análise da capacidade do modelo de manter a coerência acústica, evitando alucinações sonoras ou perda de qualidade estrutural ao longo das faixas geradas.
+## 📄 Processo de Criação
+1. **Curadoria:** Seleção de 10 letras do artista base.
+2. **Prompt Engineering:** Configuração das instruções do Gems para mimetizar o vocabulário e a métrica.
+3. **Produção:** Geração das letras e posterior conversão em áudio no Suno AI, ajustando parâmetros de gênero musical e BPM.
 
 ---
-[Voltar ao portfólio principal](https://github.com/gustavoluan-dot/portfolio_gustavo_luan)
+Desenvolvido por [Gustavo Luan Araujo Santos](https://github.com/gustavoluan-dot/portfolio-gustavo-luan-araujo-santos)
