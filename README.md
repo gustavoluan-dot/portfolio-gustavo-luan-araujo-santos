@@ -66,11 +66,11 @@ Meu principal desejo profissional é consolidar expertise na engenharia de softw
 Organização do ambiente de desenvolvimento para navegação rápida:
 
 ```text
-Portfólio_Gustavo_Luan/
+portfolio-gustavo-luan-araujo-santos/
 │
 ├── README.md                                  ← Entry Point
 │
-├── CV-main/                                   ← Currículo Profissional
+├── cv/                                        ← Currículo Profissional
 ├── Laboratório-Classificação-Visual/          ← Viés Algorítmico (Ética)
 ├── laboratorio-deteccao-com-bone-ou-sem/      ← Viés Algorítmico (Falsos Positivos)
 ├── engenharia-de-prompt/                      ← Refinamento de LLMs
