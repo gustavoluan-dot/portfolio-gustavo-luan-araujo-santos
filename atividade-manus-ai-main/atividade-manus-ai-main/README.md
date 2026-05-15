@@ -23,7 +23,6 @@ A arquitetura da solução prioriza estabilidade de conexão e baixa latência d
 
 A organização do código-fonte segue o padrão estrutural de projetos nativos Android:
 
-⬅️ Voltar para o Portfólio Principal
 
 ```text
 atividade-manus-ai-main/
