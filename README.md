@@ -1,9 +1,15 @@
 # 👨‍💻 Gustavo Luan | Software Engineering & Tech Analysis
 
 ## 📝 Sobre Mim
-Profissional em ascensão na área de tecnologia, atualmente com 20 anos e cursando o **2º semestre de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cidade de São Paulo (UNICID)**, no período noturno. Minha atuação é focada na intersecção entre o desenvolvimento de software e a análise de dados, buscando sempre a eficiência algorítmica e a estruturação lógica de sistemas complexos.
 
-Atualmente, desempenho o papel de **Estagiário de Tecnologia na Project SA**, onde aplico metodologias de automação e análise técnica para otimização de fluxos corporativos.
+Profissional em ascensão na área de tecnologia, atualmente cursando o **2º semestre de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cidade de São Paulo (UNICID)**. Minha atuação técnica é direcionada à intersecção entre o desenvolvimento de software, análise de dados e automação, visando a eficiência algorítmica e a estruturação lógica de sistemas complexos.
+
+No cenário corporativo, atuo como **Estagiário de Tecnologia**, projetando e implementando soluções escaláveis com o ecossistema **Microsoft Power Platform** (Power Apps, Power Automate e Dataverse). Aplico metodologias de modelagem de processos (BPMN e UML) para o mapeamento e otimização de fluxos operacionais e logísticos, integrando regras de negócio a arquiteturas de dados sólidas, utilizando bancos de dados relacionais (SQL, MySQL) e normalização estruturada. Minha base de desenvolvimento também engloba linguagens como Python, C e a stack web (HTML5, CSS3, JavaScript).
+
+### 🎯 Objetivos de Carreira e Pesquisa
+Tenho um foco analítico voltado para o estudo da **Inteligência Artificial**, pesquisando ativamente sobre a arquitetura de *Large Language Models* (LLMs), *Transformers*, processamento semântico (*embeddings*) e visão computacional aplicados à mitigação de vieses algorítmicos. 
+
+Meu principal desejo profissional é consolidar expertise na engenharia de software de alta performance, construindo arquiteturas que unam IA e automação para a resolução de problemas reais. Busco de forma contínua a exposição a desafios de alta complexidade técnica e a expansão da minha visão sistêmica através de mobilidade acadêmica e integração com inovações do mercado tecnológico global.
 
 ---
 
